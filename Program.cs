@@ -6,6 +6,11 @@ namespace AnimalAbstract
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Narwhal Facts");
+            Narwhal n = new Narwhal("Nelly");
+            Console.WriteLine( n.MakeSound());
+            n.PrintFood();
+            Console.WriteLine();
             Seal s = new Seal(); 
             Console.WriteLine("Seal Info");
             Console.WriteLine("The seal eats " +s.GetFood() );
